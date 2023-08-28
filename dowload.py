@@ -46,6 +46,6 @@ def organize_downloads(downloads_folder):
                 shutil.move(full_path, os.path.join(misc_folder, filename))
 
 if __name__ == "__main__":
-    downloads_folder = '/Users/kovidsrivart/Downloads'  
+    downloads_folder = '/Users/<USER>/Downloads'  //change the USER NAME
     organize_downloads(downloads_folder)
     print("Downloads organized!")
